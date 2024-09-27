@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20230525/pngtree-green-field-inside-football-stadium-in-silhouette-under-sky-image_2628209.jpg);
+    background-size: cover;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    background: transparent;
+    border: 2px solid white;
+}
+.imagelist{
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(10, 1fr);
+    font-size: 0;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+.a{
+    width: 125px;
+    height: 400px;
+    object-fit: cover;
+}
+.a:active{
+    width: 425px;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: none;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 10px;
+}
+
+
